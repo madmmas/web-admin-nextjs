@@ -1,3 +1,5 @@
-export default function SummerizerPage() {
-  return <div>Summarizer</div>
+import { redirect } from "next/navigation"
+
+export default function AppPage() {
+  redirect("/summarizer/upload")
 }

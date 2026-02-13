@@ -1,3 +1,5 @@
-export default function PromptsPage() {
-  return <div>Prompts</div>
+import { redirect } from "next/navigation"
+
+export default function AppPage() {
+  redirect("/prompts/list")
 }
